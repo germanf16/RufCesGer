@@ -3,5 +3,6 @@
 void main ( void )
 
 {
-  printf("I am GF")
+  printf("I am GF");
+  printf("I am CC");
 }
