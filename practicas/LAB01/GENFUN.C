@@ -3,6 +3,9 @@
 
 void main ( void )
 
+uint8 au8BufferTest[12] = "HelLo There!";
+	uint8 au8BufferTest2[12] = "TrAvis";
+
 /*func caps on */
 	printf("\nCaps On\n");
 	printf("Buffer before function %s\n", au8BufferTest);
