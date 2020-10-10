@@ -9,6 +9,13 @@ void main ( void )
 	GENFUN_vCapsOn( &au8BufferTest[0], 12);
 	printf("Buffer after function %s\n", au8BufferTest);
 
+	/*func caps off*/
+	printf("\nCaps Off\n");
+	printf("Buffer before function %s\n", au8BufferTest);
+	GENFUN_vCapsOff( &au8BufferTest[0], 12);
+	printf("Buffer after function %s\n", au8BufferTest);
+
+
 void GENFUN_vCapsOn ( uint8 *pu8Src, uint8 u8SizeOfList )
 {
 	while( u8SizeOfList != 0 )
