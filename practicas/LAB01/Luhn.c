@@ -4,7 +4,8 @@
 
 void main (void)
 {
-	uint8 au8TARJETNUMBER[16]={5,4,6,7,2,8,3,6,9,8,7,7,6,6,4,4};
+	
+    uint8 au8TARJETNUMBER[16]={5,4,6,7,2,8,3,6,9,8,7,7,6,6,4,4};
 	uint8 u8Check=0;
 
 	    printf("TARJETNUMBER");
