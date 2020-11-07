@@ -133,7 +133,7 @@ int main()
   
  
   getch();
-    
+   
   return 0;
 }
 
@@ -192,7 +192,7 @@ void imprimir_tablero(int tablero[][15], int perder)
 {
      int i, j;
     
-     for(i = 0; i <= RENGLON -1; i++)  
+     for(i = 0; i <= RENGLON -1; i++) 
        printf("%d ", i);
       
      printf("\n");  
